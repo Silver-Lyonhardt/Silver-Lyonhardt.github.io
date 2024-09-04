@@ -7,8 +7,7 @@ a:visited {
     color:lightblue;
 }
 
-a:hover {
-    color:white;
+.Navbar p:hover {
     background-color:grey;
 }
 
@@ -16,4 +15,13 @@ a:hover {
     position: sticky;
     top: 0;
     background-color: rgb(0, 0, 80);
+}
+
+.Navbar p {
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0px;
 }
