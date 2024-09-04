@@ -7,8 +7,10 @@ a:visited {
     color:lightblue;
 }
 
-.Navbar p:hover {
-    background-color:grey;
+.current {
+    background-color: grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .Navbar {
@@ -24,4 +26,18 @@ a:visited {
     padding-left: 20px;
     padding-top: 10px;
     margin: 0px;
+}
+
+.Navbar p:hover {
+    background-color:grey;
+}
+
+.Aside {
+    position: fixed;
+    background-color: rgba(150, 0, 50, 0.600);
+}
+
+.Dash {
+    Width: 100%;
+    border-style: double;
 }
