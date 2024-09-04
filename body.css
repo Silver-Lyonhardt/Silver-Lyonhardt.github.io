@@ -10,13 +10,13 @@ a:visited {
 a:hover {
     color:white;
     background-color:grey;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .Navbar {
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 128, 0.600);
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
