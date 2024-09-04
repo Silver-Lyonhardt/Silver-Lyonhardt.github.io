@@ -9,5 +9,7 @@ a:visited {
 
 .Navbar {
     position: fixed;
+    float: right;
     background-color: rgba(0, 0, 128, 0.300);
+
 }
