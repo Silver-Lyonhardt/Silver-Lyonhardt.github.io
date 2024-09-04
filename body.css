@@ -16,4 +16,5 @@ a:hover {
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 128, 0.600);
+    border-right: 20px;
 }
