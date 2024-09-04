@@ -9,7 +9,7 @@ a:visited {
 
 .Navbar {
     position: sticky;
-    float: right;
+    top: 0;
     background-color: rgba(0, 0, 128, 0.600);
     border-top: 10px;
     border-right: 10px;
