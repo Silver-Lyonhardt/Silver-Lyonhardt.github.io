@@ -6,3 +6,8 @@ body{
 a:visited {
     color: lightblue;
 }
+
+.Navbar {
+    position: fixed;
+    color: navy;
+}
