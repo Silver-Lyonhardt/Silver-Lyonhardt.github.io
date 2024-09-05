@@ -47,7 +47,7 @@ a:visited {
     Border-color: black;
 }
 
-.div1 {
+.div1 { 
     width: 750px;
     background-color: crimson;
     border: 2px solid;
@@ -61,5 +61,5 @@ a:visited {
     border: 4px double;
     border-color: Grey;
     background-color: lime;
-    width: 300px
+    width: 300px;
 }
