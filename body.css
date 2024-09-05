@@ -52,5 +52,13 @@ a:visited {
     background-color: crimson;
     border: 2px solid;
     border-color: grey;
+}
 
+.div2 {
+    float: right;
+    color: black;
+    border: 4px double;
+    border-color: Grey;
+    background-color: lime;
+    width: 300px
 }
