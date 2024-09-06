@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color:white;
+    font-size: larger;
 }
 
 a:visited {
@@ -43,6 +44,15 @@ a:visited {
     background-color: rgba(150, 0, 50, 0.600);
 }
 
+.Aside a {
+    color: lightgray;
+    background-color: rgb(100, 0, 50);
+}
+
+.Aside a:hover {
+    color:White;
+}
+
 .Dash {
     Width: 100%;
     background-color: rgb(90, 90, 90);
@@ -53,19 +63,20 @@ a:visited {
     Border-color: black;
 }
 
-.div1 { 
-    width: 750px;
+#div1 { 
+    width: 800px;
     background-color: crimson;
     border: 2px solid;
     border-color: grey;
+    padding: 10px;
     display: inline-block;
 }
 
-.div2 {
+#div2 {
     float: right;
     color: black;
     border: 4px double;
     border-color: Grey;
     background-color: lime;
-    width: 300px;
+    width: 400px;
 }
