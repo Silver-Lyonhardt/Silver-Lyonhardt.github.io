@@ -32,79 +32,94 @@
   </div>
   <br>
   <main>
-    <table class="Dash">
+    <table class="dash">
       <tr>
         <th>ID</th>
-        <th>Shortened Name</th>
-        <th>Name</th>
-        <th>Period</th>
+        <th>Exam</th>
+        <th>Course</th>
+        <th>Quartile</th>
         <th>EC Amount</th>
       </tr>
       <tr>
-        <td>CU75001</td>
+        <td style="background-color: orange;">CU75001</td>
         <td>PCO</td>
         <td>Program- & Career Orientation</td>
-        <td>First 2 weeks</td>
+        <td rowspan="3" style="border-color: orange;">1st Quarter</td>
         <td>2.5</td>
       </tr>
       <tr>
         <td>CU75002</td>
         <td>CBA</td>
         <td>Computer Science Basics</td>
-        <td>First Quarter</td>
+
         <td>5</td>
       </tr>
       <tr>
         <td>CU75003</td>
         <td>PBA</td>
         <td>Programming Basics</td>
-        <td>First Quarter</td>
         <td>5</td>
       </tr>
       <tr>
         <td>CU75004</td>
         <td>OOP</td>
         <td>Object Oriented Programming</td>
-        <td>Second Quarter</td>
+        <td>2nd Quarter</td>
         <td>10</td>
       </tr>
       <tr>
         <td>CU75080</td>
         <td>FPR1</td>
         <td>Framework Project 1</td>
-        <td>Third Quarter</td>
+        <td>3rd Quarter</td>
         <td>10</td>
       </tr>
       <tr>
         <td>CU75011</td>
         <td>FPR2</td>
         <td>Framework Project 2</td>
-        <td>Fourth Quarter</td>
+        <td>4th Quarter</td>
         <td>10</td>
       </tr>
       <tr>
         <td>CU75081</td>
         <td>BICB</td>
         <td>Business IT Consultancy Basics</td>
-        <td>Second Semester</td>
+        <td>3rd and 4th Quarter</td>
         <td>2.5</td>
       </tr>
       <tr>
         <td>CU75068</td>
         <td>PPD-E</td>
         <td>Personal Professional Development: Exploration</td>
-        <td>Entire Year</td>
+        <td rowspan="2">Entire Year</td>
         <td>12.5</td>
       </tr>
       <tr>
         <td>-</td>
         <td>-</td>
         <td>IT Personality</td>
-        <td>Entire Year</td>
         <td>2.5</td>
       </tr>
     </table>
+    <br>
+    <table class="dash" style="width: 50%;">
+      <tr>
+        <th>Ongoing</th>
+        <th>Succesed</th>
+        <th>Failed</th>
+      </tr>
+      <tr>
+        <td style="background-color: orange;">Orange</td>
+        <td style="background-color: limegreen;">Limegreen</td>
+        <td style="background-color: crimson;">Crimson</td>
+      </tr>
+    </table>
+    <h3 style="left: 60%; position: absolute; top: 380px;">Progress</h3>
+    <br>
+    <meter value="0" max="60" id="meter" low="45" optimum="60"> EC/60 </meter>
   </main>
+
 
 </body>
 
