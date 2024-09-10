@@ -40,6 +40,17 @@ a:visited {
     border-style: solid;
 }
 
+#faq {
+    margin-left: 20px;
+}
+
+.hzlogo {
+    height: 25px;
+    position: absolute;
+    right: 20px; top:
+    10px; z-index: 5;
+}
+
 #index {
     margin-left: 6px;
     rotate: 0 0 1 2deg;
@@ -85,6 +96,7 @@ a:visited {
     margin-top: -25px;
     position: sticky;
     top: 0px;
+    z-index: 4;
 }
 
 .Navbar p {
