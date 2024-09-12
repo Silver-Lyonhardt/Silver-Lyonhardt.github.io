@@ -100,7 +100,7 @@ a:visited {
     &[open] a {
         color: aqua;
         position: relative;
-        z-index: 13;
+        z-index: 10;
     }
     & summary {
         background-color: gray;
@@ -113,6 +113,7 @@ a:visited {
             content: none;
         }
     }
+
     &[open] {
         background-color: dimgrey;
         border: 2px solid darkslategrey;
@@ -134,7 +135,7 @@ a:visited {
     cursor: auto;
     height: 100vh;
     left: 0;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100vw;
 }
