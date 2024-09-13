@@ -1,0 +1,11 @@
+/*FOR ALL SMALL FONT RELATED THINGS*/
+
+#NOITAfont {
+    font-family: NOITAfont;
+    font-size: larger;
+}
+
+@font-face {
+    font-family: 'NOITAfont';
+    src: url("/fonts/NOITAfont.ttf");
+}

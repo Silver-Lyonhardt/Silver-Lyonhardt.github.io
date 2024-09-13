@@ -1,3 +1,5 @@
+@import url("/fonts.css");
+
 body{
     background-color: black;
     color:white;
@@ -8,20 +10,20 @@ a:visited {
     color:lightblue;
 }
 
-.Aside {
+.aside {
     background-color: rgba(150, 0, 50, 0.5);
     cursor: pointer;
     position: fixed;
     top: 50px;
-    z-index: 2;
+    z-index: 5;
 }
 
-.Aside a {
+.aside details[open] {
     background-color: rgb(100, 0, 50);
     color: lightgray;
 }
 
-.Aside a:hover {
+.aside a:hover {
     color:White;
 }
 
@@ -60,7 +62,7 @@ a:visited {
     position: absolute;
     right: 20px;
     top: 10px;
-    z-index: 5;
+    z-index: 50;
 }
 
 #index {
@@ -148,14 +150,14 @@ a:visited {
     width: 40%;
 }
 
-.Navbar a {
+.navbar a {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px
 }
 
-.Navbar {
+.navbar {
     background-color: rgb(0, 0, 80);
     margin-top: -25px;
     position: sticky;
@@ -163,14 +165,14 @@ a:visited {
     z-index: 40;
 }
 
-.Navbar p {
+.navbar p {
     display: inline-block;
     margin: 0px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-.Navbar p:hover {
+.navbar p:hover {
     background-color:grey;
 }
 
@@ -209,8 +211,6 @@ a:visited {
     top: 30%;
     width: 20%;
 }
-
-
 
 @keyframes anim {
     from {
