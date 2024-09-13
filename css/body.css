@@ -199,8 +199,12 @@ a:visited {
     border-color: Grey;
     color: black;
     float: right;
+    margin-bottom: 15px;
     padding-left: 10px;
     width: 41%;
+    & li::marker {
+        font-size: large;
+    }
 }
 
 .whee {

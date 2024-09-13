@@ -1,11 +1,60 @@
 /*FOR ALL SMALL FONT RELATED THINGS*/
 
-#NOITAfont {
-    font-family: NOITAfont;
+#CELESTEfont {
+    font-family: CELESTEfont;
     font-size: larger;
 }
-
 @font-face {
-    font-family: 'NOITAfont';
-    src: url("/fonts/NOITAfont.ttf");
+    font-family: "CELESTEfont";
+    src: url(/fonts/CELESTEfont.ttf);
+}
+
+
+#HOLLOWKNIGHTfont {
+    font-family: HOLLOWKNIGHTfont;
+    font-size: 20px;
+}
+@font-face {
+    font-family: "HOLLOWKNIGHTfont";
+    src: url(/fonts/HOLLOWKNIGHTfont.ttf);
+}
+
+
+#NOITAfont {
+    font-family: NOITAfont;
+    font-size: 30px;
+}
+@font-face {
+    font-family: "NOITAfont";
+    src: url(/fonts/NOITAfont.ttf);
+}
+
+
+#RAINWORLDfont {
+    font-family: RAINWORLDfont;
+    font-size: 25px;
+}
+@font-face {
+    font-family: "RAINWORLDfont";
+    src: url(/fonts/RAINWORLDfont.otf);
+}
+
+
+#TERRARIAfont {
+    font-family: TERRARIAfont;
+    font-size: larger;
+}
+@font-face {
+    font-family: "TERRARIAfont";
+    src: url(/fonts/TERRARIAfont.ttf);
+}
+
+
+#UNDERTALEfont {
+    font-family: UNDERTALEfont;
+    font-size: medium;
+}
+@font-face {
+    font-family: UNDERTALEfont;
+    src: url(/fonts/UNDERTALEfont.otf);
 }
