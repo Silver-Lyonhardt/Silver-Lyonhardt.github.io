@@ -1,13 +1,14 @@
 @import url("/fonts.css");
 
-body{
+body {
     background-color: black;
-    color:white;
+    color: white;
     font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:visited {
-    color:lightblue;
+    color: lightblue;
 }
 
 .aside {
@@ -24,11 +25,11 @@ a:visited {
 }
 
 .aside a:hover {
-    color:White;
+    color: White;
 }
 
 #blog summary {
-    font-size:larger;
+    font-size: larger;
     font-weight: bold;
     cursor: pointer;
 }
@@ -57,6 +58,13 @@ a:visited {
     z-index: -1;
 }
 
+.figure {
+    margin: 0px;
+    text-align: center; 
+    display: inline-block;
+    width: 49%;
+}
+
 .hzlogo {
     height: 25px;
     position: absolute;
@@ -75,9 +83,11 @@ a:visited {
     &::marker {
         content: "";
     }
+
     &::after {
         content: "*";
     }
+
     cursor: pointer;
 }
 
@@ -92,6 +102,7 @@ a:visited {
 
 .menu {
     margin-left: 26%;
+    text-align: center;
 }
 
 .menu details {
@@ -99,11 +110,13 @@ a:visited {
     text-align: center;
     width: 65%;
     z-index: 11;
+
     &[open] a {
         color: aqua;
         position: relative;
         z-index: 10;
     }
+
     & summary {
         background-color: gray;
         border-top-left-radius: 20px;
@@ -111,6 +124,7 @@ a:visited {
         cursor: pointer;
         font-weight: bold;
         z-index: 3;
+
         &::marker {
             content: none;
         }
@@ -120,11 +134,13 @@ a:visited {
         background-color: dimgrey;
         border: 2px solid darkslategrey;
         border-radius: 20px;
+
         & summary {
             border-bottom: 2px solid darkslategrey;
             height: 50px;
         }
     }
+
     &:not([open]) summary {
         border: 2px solid darkslategrey;
         border-radius: 20px;
@@ -132,6 +148,7 @@ a:visited {
 }
 
 /*Close details on click*/
+/*
 .menu details[open] summary::before {
     content: "";
     cursor: auto;
@@ -140,7 +157,7 @@ a:visited {
     position: absolute;
     bottom: 0;
     width: 100vw;
-}
+}*/
 
 #meter {
     height: 25px;
@@ -151,7 +168,7 @@ a:visited {
 }
 
 .navbar a {
-    color:lightblue;
+    color: lightblue;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -174,7 +191,7 @@ a:visited {
 }
 
 .navbar p:hover {
-    background-color:grey;
+    background-color: grey;
 }
 
 #profile1 {
@@ -203,6 +220,7 @@ a:visited {
     margin-bottom: 15px;
     padding-left: 10px;
     width: 41%;
+
     & li::marker {
         font-size: large;
     }
@@ -219,9 +237,48 @@ a:visited {
 
 @keyframes anim {
     from {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-      transform: rotate(359deg);
+        transform: rotate(359deg);
     }
-  }
+}
+
+/*Small id area (to remove the "style" tags*/
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#shadow {
+    background-color: aqua;
+    right: 19.4%;
+    top: 32%;
+}
+
+/*Page specific (start with capital letter of the first letter of the page's title)*/
+.D-failed-bg {
+    background-color: crimson;
+}
+
+.D-ongoing-bg {
+    background-color: orange;
+}
+
+.D-ongoing-border {
+    border-color: orange !important;
+}
+
+.D-succesed-bg {
+    background-color: limegreen;
+}
+
+#meter-name {
+    left: 60%;
+    position: absolute;
+    top: 380px;
+}
